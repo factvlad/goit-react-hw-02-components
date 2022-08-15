@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: solid 2px rgb(6, 6, 6);
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  padding: 0;
+  margin: 25px 0 25px 0;
+}
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.btn {
+  display: inline-block;
+  width: 65px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #fff;
+  font-weight: 600;
+  &:hover {
+    background-color: rgb(75, 75, 200);
+  }
+}
+
+ul {
+  text-align: left;
+  margin-top: 0;
+  margin-left: 120px;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 20px;
+  width: 250px;
+}
+.noti {
+  margin: 0 auto;
+  font-size: 23px;
+  text-align: center;
+}
