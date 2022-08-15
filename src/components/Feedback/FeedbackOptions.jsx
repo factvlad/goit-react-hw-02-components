@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 import style from "./Feedback.module.scss"
 
 const FeedbackOptions = ({ leaveVote }) => {
@@ -8,6 +9,10 @@ const FeedbackOptions = ({ leaveVote }) => {
       <button className={ style.btn } onClick={ () => leaveVote("bad") }>Bad</button>
     </div>
   );
+}
+
+FeedbackOptions.propTypes = {
+  leaveVote: PropTypes.func
 }
 
 export default FeedbackOptions;

@@ -52,9 +52,9 @@ class FeedBack extends Component {
         <Section title="Statistics">
           { total > 0 ? (
             <Statistics
-              good={ this.state.good }
-              neutral={ this.state.neutral }
-              bad={ this.state.bad }
+              good={ good }
+              neutral={ neutral }
+              bad={ bad }
               total={ total }
               percent={ percent }
             />
