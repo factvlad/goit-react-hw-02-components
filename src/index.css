@@ -15,3 +15,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div.notiflix-report-content {
+  position: relative;
+  top: 65px;
+}
+
+.notiflix-report-button {
+  width: 100%;
+  text-align: center;
+}
