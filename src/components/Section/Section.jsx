@@ -1,5 +1,5 @@
 import PropTypes from "prop-types"
-import style from "./Feedback.module.scss"
+import style from "../Feedback.module.scss"
 
 const Section = ({ title, children }) => {
 
@@ -13,8 +13,8 @@ const Section = ({ title, children }) => {
   );
 }
 
-Section.propTypes = {
-  title: PropTypes.string
-}
-
 export default Section;
+
+Section.propTypes = {
+  title: PropTypes.string,
+}
