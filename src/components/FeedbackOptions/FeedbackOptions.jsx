@@ -9,7 +9,11 @@ const FeedbackOptions = ({ leaveVote, options }) => {
           option.split('')[0].toUpperCase() +
           option.split('').slice(1).join('');
         return (
-          <button className={ style.btn } key={ index } onClick={ () => leaveVote(option) } type="button">
+          <button
+            className={ style.btn }
+            key={ index }
+            onClick={ () => leaveVote(option) }
+            type="button">
             { label }
           </button>
         );
